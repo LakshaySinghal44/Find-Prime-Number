@@ -9,3 +9,7 @@ If any divisor is found (n % i == 0), the number is marked as not prime, and the
 Output Result:
 If no divisors are found, the number is prime.
 Otherwise, it is not a prime number.
+
+Optimization:
+Checking up to √n reduces unnecessary computations.
+The loop exits early if a divisor is found.
